@@ -52,10 +52,7 @@ void moverCavalo(int casasCima, int casasDireita) {
                     break; // Sai do loop horizontal após 1 casa
                 }
             }
-        } else {
-            printf("Cima\n");
-            continue; // Continua até chegar à segunda casa para cima
-        }
+        } 
     }
 }
 
