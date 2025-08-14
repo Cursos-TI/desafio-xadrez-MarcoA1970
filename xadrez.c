@@ -41,8 +41,11 @@ void moverBispo(int casasVerticais, int casasHorizontais) {
 void moverCavalo(int casasCima, int casasDireita) {
     int i, j;
     for (i = 1; i <= casasCima; i++) {
-        if (i == 2) {
-            // Quando atingir 2 casas para cima, executa o movimento horizontal
+
+        printf("Cima\n");
+
+        if (i == casasCima) {
+            
             for (j = 1; j <= casasDireita; j++) {
                 if (j == 1) {
                     printf("Direita\n");
